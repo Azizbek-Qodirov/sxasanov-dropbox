@@ -25,7 +25,7 @@ function Login() {
       return;
     }
 
-    setErrorMsg('');
+    // setErrorMsg('');
     setSubmitButtonDisabled(true);
 
     signInWithEmailAndPassword(auth, values.email, values.password)
