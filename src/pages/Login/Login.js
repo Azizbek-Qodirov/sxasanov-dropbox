@@ -14,8 +14,8 @@ function Login() {
     password: '',
   });
 
-  const [setErrorMsg] = useState('');
-  const [setSubmitButtonDisabled] = useState(false);
+  const [errorMsg, setErrorMsg] = useState('');
+  const [submitButtonDisabled, setSubmitButtonDisabled] = useState(false);
 
   const handleSubmission = (e) => {
     e.preventDefault();
