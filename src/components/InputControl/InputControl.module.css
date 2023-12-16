@@ -1,0 +1,31 @@
+.input {
+   width: 398px;
+   height: 50px;
+   border-radius: 10px;
+   background: rgba(17, 17, 17, 0.02);
+   padding: 0 20px;
+   border: 1px solid rgba(17, 17, 17, 0.179);
+   font-size: 22px;
+   outline-color: var(--blue);
+
+}
+.input::placeholder {
+   color: rgba(17, 17, 17, 0.36);
+   font-size: 18px;
+}
+
+.labelShow,
+.label {
+   color: #111111c9;
+   font-size: 20px;
+   margin-top: 10px;
+   cursor: pointer;
+   text-align: left;
+}
+
+.labelHide {
+   color: #fff;
+   font-size: 20px;
+   margin-top: 10px;
+   cursor: pointer;
+}

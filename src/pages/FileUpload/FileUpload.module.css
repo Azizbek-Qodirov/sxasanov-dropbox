@@ -1,0 +1,114 @@
+.body {
+  word-wrap: break-word;
+  color: white;
+  background-color: hsl(215, 39%, 18%);
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  overflow-x: auto;
+  justify-content: center;
+
+}
+
+
+.Uploadside {
+  justify-content: center;
+  margin: 2vh;
+  background-color: #007f04;
+  border: 1px solid #007f04;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.Uploadside:hover {
+  background-color: #ffffff;
+  color: #007f04;
+}
+
+.Box {
+  text-align: center;
+  background-color: #2a4365;
+  width: 50%;
+  margin: 10vh auto;
+  padding: 5vh;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.Uploadchoose {
+  background-color: #444;
+  color: #efefef;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Uploadchoose:hover {
+  background-color: #333;
+}
+
+.Uploadedfiles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.Filebutton {
+  margin: 2vh;
+  background-color: #457b9d;
+  color: white;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.Filebutton:hover {
+  background-color: #234e6d;
+}
+
+.createFolder {
+  text-align: center;
+  background-color: #3c5cb5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: 10vh auto;
+  padding: 2vh;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.createFolder:hover {
+  background-color: #234e6d;
+}
+
+.createdFoldersStyle {
+  text-align: center;
+  background-color: #6d597a;
+  width: 70%;
+  max-width: 650px;
+  margin: 5vh auto;
+  padding: 3vh;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+}
+
+.createdFoldersStyle:hover {
+  background-color: #57425d;
+}

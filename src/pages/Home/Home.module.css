@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  position: fixed;
+  background-color: #2a4365;
+  font-size: 24px;
+  justify-content: space-between;
+  padding: 0 100px;
+  height: 80px;
+  width: 87%;
+  color: white;
+}
+
+h1 {
+  font-size: 18px;
+  text-decoration: none;
+  color: #2a4365;
+  background-color: #fff;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  margin: 0.5rem;
+  margin: -20px; 
+  transition: background-color 0.3s, color 0.3s;
+
+}
+
+h1 a{
+  color: red;
+  text-decoration: none;
+  color: #2a4365;
+}
+
+h1:hover{
+  background-color: #2a4365;
+}
+h1:hover a{
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+  
+}
+
+.User {
+  text-decoration: none;
+  height: 40px;
+  width: 40px;
+  border: 2px solid #2a4365;
+  border-radius: 100%;
+  margin: 0.5rem;
+}
+
+.Useroptions {
+  display: flex;
+  align-items: center;
+}
+
+.OutPro {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+
+}
+.main{
+  overflow: auto;
+}
+
+.user{
+  width: 45px;
+  height: 45px;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #000;
+}
+.logout{
+  cursor: pointer;
+  color: red;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body p{
+  margin: 0;;
+}

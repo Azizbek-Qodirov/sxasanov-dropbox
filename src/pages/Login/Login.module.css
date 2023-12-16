@@ -1,0 +1,52 @@
+.login {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff;
+  user-select: none;
+}
+.title {
+  font-size: 50px;
+  color: var(--blue);
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(17, 17, 17, 0.179);
+}
+
+
+.button {
+  width: 398px;
+  height: 60px;
+  border-radius: 10px;
+  background: #E7F0FF;
+  margin-top: 20px;
+  border: 1px solid rgba(17, 17, 17, 0.179);
+  font-size: 24px;
+  color: var(--blue);
+  cursor: pointer;
+}
+
+.haveAccount {
+  color: rgba(17, 17, 17, 0.36);
+  text-align: left;
+}
+
+.registerLink {
+  font-weight: 600;
+  color: var(--blue);
+
+}
